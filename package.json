@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Shubham Chandra Mishra",
+  
+  "scripts": {
+    "dev": "nodemon server.js",
+    "serve" : "node server.js"
+  },
   "license": "MIT",
   "private": true,
   "dependencies": {
