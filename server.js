@@ -9,6 +9,9 @@ const expressLayouts = require('express-Ejs-layouts');
 const PORT = process.env.PORT || 3000
 
 // Creating routes 
+
+//Assets
+app.use(express.static('public'))
 app.get('/', (req, res) => {
     res.render('home')
 })
