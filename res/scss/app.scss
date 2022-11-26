@@ -1,5 +1,30 @@
-$primary : gray;
+@import './variables';
 
 body{
-    background-color: $primary;
+    background-color: $pure;
+    font-family :Arial, Helvetica, sans-serif;
+    color: $dark;
+    -webkit-font-smoothing: antialiased;
+}
+nav li:hover:not(.cart){
+   background-color: $primary;
+   transition: $smooth;
+   color: $pure;
+}
+
+section.hero{
+    background-color: $secondary;
+}
+.size{
+    background-color: $secondary;
+}
+.add-to-cart{
+    color: $primary;
+    transition: $smooth;
+    border:2px solid $primary;
+    &:hover{
+        background-color: $primary;
+        border-color: $pure;
+        color: $pure;
+    }
 }
