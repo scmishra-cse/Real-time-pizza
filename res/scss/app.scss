@@ -28,3 +28,13 @@ section.hero{
         color: $pure;
     }
 }
+.ordernow-btn{
+    color: $primary;
+    transition: $smooth;
+    border:2px solid $primary;
+    &:hover{
+        background-color: $primary;
+        border:2px solid $pure;
+        color: $pure;
+}
+}
