@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const ejs = require('ejs');
-const expressLayouts = require('express-Ejs-layouts');
+const expressLayouts = require('express-ejs-layouts');
 
 // setting port number
 const PORT = process.env.PORT || 3000
