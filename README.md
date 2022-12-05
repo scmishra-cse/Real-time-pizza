@@ -4,4 +4,6 @@
 
 ### Using This app we will be able to order a pizza and get realtime notifications about pizza status. 
 
+<img src="https://github.com/scmishra-cse/Real-time-pizza/blob/main/realtime%20pizza%20preview%20gif.gif" height=350 width=600>
+
 ### It's Architecture and working principles are inspired by swiggy or Zomato. But offcourse it's not as scaleable as they are now a days. 
