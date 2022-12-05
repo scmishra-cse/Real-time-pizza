@@ -38,3 +38,17 @@ section.hero{
         color: $pure;
 }
 }
+section.cart{
+    background-color: $secondary;
+}
+.btn-primary{
+    color: $pure;
+    background-color: $primary;
+    transition: $smooth;
+    border:2px solid $primary;
+    &:hover{
+        background-color: $pure;
+        border:2px solid $primary;
+        color: $primary;
+}
+}

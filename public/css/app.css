@@ -40,3 +40,19 @@ section.hero {
   border: 2px solid #fff;
   color: #fff;
 }
+
+section.cart {
+  background-color: #f8f8f8;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #FE5F1E;
+  transition: all 400ms cubic-bezier(0.19, 1, 0.56, 1);
+  border: 2px solid #FE5F1E;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  border: 2px solid #FE5F1E;
+  color: #FE5F1E;
+}
