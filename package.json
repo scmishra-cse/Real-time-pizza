@@ -1,7 +1,6 @@
 {
   "name": "real-time-pizza",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Shubham Chandra Mishra",
   "scripts": {
     "serve": "node server.js",
