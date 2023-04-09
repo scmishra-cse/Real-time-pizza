@@ -7,7 +7,8 @@
   \***********************/
 /***/ (() => {
 
-console.log('Hello');
+var cart = document.querySelector('.order');
+console.log(cart);
 
 /***/ }),
 
