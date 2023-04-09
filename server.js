@@ -27,16 +27,16 @@ app.get('/menu', (req, res) => {
     res.render('menu')
 })
 app.get('/locations', (req, res) => {
-    res.render('menu')
+    res.render('locations')
 })
 app.get('/offers', (req, res) => {
-    res.render('menu')
+    res.render('customers/offers')
 })
 app.get('/register', (req, res) => {
-    res.render('menu')
+    res.render('auth/register')
 })
 app.get('/login', (req, res) => {
-    res.render('menu')
+    res.render('auth/login')
 })
 
 

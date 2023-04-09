@@ -1,13 +1,88 @@
-<section class="cart">
-
-  <section class="empty-cart py-16">
+<section class="cart py-16">
+<section class="order container mx-auto w-1/2">
+    <div class="flex items-center border-b pb-4 border-gray-300">
+      <lord-icon
+        src="https://cdn.lordicon.com/ggihhudh.json"
+        trigger="loop"
+        delay="1000"
+        colors="primary:#121331,secondary:#646e78,tertiary:#e86830"
+        style="width: 50px; height: 50px"
+      >
+      </lord-icon>
+      <h1 class="text-2xl font-bold ml-4">Order Summery</h1>
+    </div>
+    <div class="pizza-list">
+      <div class="flex items-center my-5">
+        <img class="w-24" src="/images/pizza-1.png" alt="pizza" />
+        <div class="flex-1 ml-4">
+          <h1>Mariana</h1>
+          <span>MEDIUM</span>
+        </div>
+        <span class="flex-1"> 1 Pcs </span>
+        <span class="font-bold text-lg">300$</span>
+      </div>
+      <div class="flex items-center my-5">
+        <img class="w-24" src="/images/pizza-2.png" alt="pizza" />
+        <div class="flex-1 ml-4">
+          <h1>Mariana</h1>
+          <span>MEDIUM</span>
+        </div>
+        <span class="flex-1"> 1 Pcs </span>
+        <span class="font-bold text-lg">300$</span>
+      </div>
+      <div class="flex items-center my-5">
+        <img class="w-24" src="/images/pizza-3.png" alt="pizza" />
+        <div class="flex-1 ml-4">
+          <h1>Mariana</h1>
+          <span>MEDIUM</span>
+        </div>
+        <span class="flex-1"> 1 Pcs </span>
+        <span class="font-bold text-lg">300$</span>
+      </div>
+    </div>
+    <hr />
+    <div class="text-right my-4">
+      <div>
+        <span class="font-bold text-lg">Total Amount:</span>
+        <span class="amount font-bold text-2xl ml-2">300$</span>
+      </div>
+      <form action="" class="mt-12">
+        <input
+          type="text"
+          placeholder="Phone Number"
+          class="p-2 px-4 rounded-xl border border-gray-400 w-1/2 mb-4"
+        />
+        <textarea
+          type="textarea"
+          multiple
+          placeholder="Address"
+          class="p-2 px-4 border rounded-xl border-gray-400 w-1/2 mb-4"
+        ></textarea>
+        <div>
+          <button
+            type="submit"
+            class="bg-[#FE5F1E] btn-primary inline-block px-6 py-2 rounded-full font-bold mt-6"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+      <a
+        class="btn-primary inline-block px-6 py-2 rounded-full font-bold mt-6"
+        href="/login"
+      >
+        Login to continue
+      </a>
+    </div>
+  </section>
+  <!-- <section class="empty-cart">
     <div class="conatiner mx-auto text-center">
       <h1 class="text-3xl font-bold mb-2">Cart Empty🫤</h1>
       <p class="text-gray-400 text-xl mb-14">
         You probably haven't orderd a pizza yet.<br />
         To order a pizza, go to home page.
       </p>
-      <img class="w-2/5 mx-auto" src="/images/empty-cart.png">
+      <img class="w-2/6 mx-auto" src="/images/empty-cart.png" />
       <a
         class="btn-primary inline-block px-6 py-2 rounded-full font-bold mt-12"
         href="/"
@@ -15,5 +90,5 @@
         Back to Home page
       </a>
     </div>
-  </section>
+  </section> -->
 </section>
