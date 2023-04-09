@@ -58,3 +58,10 @@ section.cart .amount {
   border: 2px solid #FE5F1E;
   color: #fff;
 }
+.referToOtherPage{
+  color: #FE5F1E;
+  transition: all 400ms cubic-bezier(0.19, 1, 0.56, 1);
+}
+.referToOtherPage:hover{
+  color: #c63d07;
+}
